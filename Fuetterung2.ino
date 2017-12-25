@@ -126,7 +126,7 @@ void loop()
 {
   int i,j;
   int anzahl;
-  struct FeedingTime times[FEED_NUM] = {{6,0,0}, {7,0,0}, {8,40,0}, {9,00,0}, {13,29,0}}; //Array der Fütterungszeiten
+  struct FeedingTime times[FEED_NUM] = {{6,30,0}, {7,30,0}, {8,40,0}, {9,00,0}, {13,29,0}}; //Array der Fütterungszeiten
   
   
   for (j = find_next (times); j < FEED_NUM; j++)
